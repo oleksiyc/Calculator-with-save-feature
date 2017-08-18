@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux/x86 version 5.2.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.min.js">
+  </script>
+  <script src="app.js">
+  </script>
+</head>
+<body>
+  <div id="calculator">
+    <table>
+      <tr>
+        <td colspan="5" class="result"><span id=
+        "result"></span></td>
+      </tr>
+      <tr>
+        <td><span data-act="7" class="calcbutton">7</span></td>
+        <td><span data-act="8" class="calcbutton">8</span></td>
+        <td><span data-act="9" class="calcbutton">9</span></td>
+        <td class="calcframe"><span data-act="+" class=
+        "calcbutton">+</span></td>
+        <td rowspan="5" id="storecell"><span id="store"></span></td>
+      </tr>
+      <tr>
+        <td><span data-act="4" class="calcbutton">4</span></td>
+        <td><span data-act="5" class="calcbutton">5</span></td>
+        <td><span data-act="6" class="calcbutton">6</span></td>
+        <td class="calcframe"><span data-act="-" class=
+        "calcbutton">-</span></td>
+      </tr>
+      <tr>
+        <td><span data-act="1" class="calcbutton">1</span></td>
+        <td><span data-act="2" class="calcbutton">2</span></td>
+        <td><span data-act="3" class="calcbutton">3</span></td>
+        <td class="calcframe"><span data-act="*" class=
+        "calcbutton">*</span></td>
+      </tr>
+      <tr>
+        <td><span data-act="0" class="calcbutton">0</span></td>
+        <td rowspan="2" class="calcframe2"><span id="btnSave"
+        class="calcaction">Save</span></td>
+        <td rowspan="2" class="calcframe2"><span id="btnCancel"
+        class="calcaction">Cancel</span></td>
+        <td class="calcframe"><span data-act="/" class=
+        "calcbutton">/</span></td>
+      </tr>
+      <tr>
+        <td><span data-act="." class="calcbutton">.</span></td>
+        <td class="calcframe"><span id="equals" class=
+        "calcaction">=</span></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

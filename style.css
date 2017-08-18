@@ -1,0 +1,75 @@
+#calculator > table {
+    border: 1px black solid;
+}
+#calculator {
+    font-size: 16pt;
+    width: 600px;
+}
+#savedmath th {
+    text-align: center;
+    text-transform: uppercase;
+}
+#savedmath a {
+    text-transform: uppercase;
+}
+#savedmath {
+    width: 170px;
+}
+#savedmath, #savedmath tr, #savedmath td {
+    border: 1px solid black;
+}
+#storecell {
+    vertical-align: top;
+}
+#storecellmobile{
+    vertical-align: top;
+}
+#store {
+    width: 170px; 
+    font-size: 10pt;
+    text-align: right;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: auto;
+}
+#result {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+    display: block;
+}
+td.result {
+    border-bottom: 1px black solid;
+}
+.delete, .load, .calcbutton, .calcaction {
+    cursor: pointer;
+    text-decoration: none;
+}
+.calcbutton, .calcaction {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.calcbutton, #equals {
+    width: 120px;
+    height: 30px;
+}
+td.calcframe2 {
+    border: 1px black solid;
+    width:100%;
+}
+
+td.calcframe {
+    border: 1px black solid;
+    width: 67px ! important;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-device-width: 480px){
+
+}
